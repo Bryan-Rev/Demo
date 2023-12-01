@@ -1,7 +1,25 @@
-body{
-    background-color: aqua;
+nav{
+    background-color: grey;
 }
-p {
- font-size: 60px;
- color: red;
+.navitem{
+    display: inline-block;
+    padding: 10px;
+    background-color: blue;
+}
+
+.LeftContainer{
+    width: 29%;
+    float: left;
+    background-color: aqua;
+    height: 1000px;
+}
+
+.RightContainer{
+    background-color: green;
+
+    height: 1000px;
+
+    width: 70%;
+    float: left;
+
 }
